@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+  usb:
+    container_name: usb
+    build: .
+    isolation: process
+  nginx:
+    container_name: nginx
+    platform: linux
+    mem_limit: 4GB
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+      - SA_PASSWORD=Mypass1.
+    volumes:
+      - 'C:\dev\projects\docker-mixed-mode:/var/opt/mssql/data'
+    ports:
+      - '80:80'
+    image: nginx
+networks:
+  default:
+    # Use a custom driver
+    driver: custom-driver-1

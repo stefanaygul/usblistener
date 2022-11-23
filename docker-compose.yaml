@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  usb:
+    container_name: usb
+    build: .
+    isolation: process
+  nginx:
+    container_name: nginx
+    platform: linux
+    ports:
+      - '80:80'
+    image: nginx
+networks:
+  default:
+    # Use a custom driver
+    driver: custom-driver-1

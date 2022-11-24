@@ -13,4 +13,6 @@ services:
 networks:
   default:
     # Use a custom driver
-    driver: custom-driver-1
+    driver: bridge
+    driver_opts:
+      com.docker.network.driver.mtu: 1450

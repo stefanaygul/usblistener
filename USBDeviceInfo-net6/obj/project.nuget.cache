@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "yULhuYqPTUIiF90CLAE4t52KGYjzInZ1LIQN+iMzjCnfqQmrJtsowWK5A31tZkm9CXTJc5rl0wR0HkCh6MhANQ==",
+  "success": true,
+  "projectFilePath": "C:\\dev\\projects\\docker-mixed-mode\\USBDeviceInfo-net6\\USBConsoleApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\pamirerdem\\.nuget\\packages\\system.codedom\\7.0.0\\system.codedom.7.0.0.nupkg.sha512",
+    "C:\\Users\\pamirerdem\\.nuget\\packages\\system.management\\7.0.0\\system.management.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

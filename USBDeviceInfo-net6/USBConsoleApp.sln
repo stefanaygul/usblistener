@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "USBConsoleApp", "USBConsoleApp.csproj", "{E9B5A2F3-7C6C-4C4B-AA45-8B0667F6AF68}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E9B5A2F3-7C6C-4C4B-AA45-8B0667F6AF68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9B5A2F3-7C6C-4C4B-AA45-8B0667F6AF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9B5A2F3-7C6C-4C4B-AA45-8B0667F6AF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9B5A2F3-7C6C-4C4B-AA45-8B0667F6AF68}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCCC0F4A-14DA-42BE-A859-B4BDA383F01E}
+	EndGlobalSection
+EndGlobal

@@ -10,9 +10,3 @@ services:
     ports:
       - '80:80'
     image: nginx
-networks:
-  default:
-    # Use a custom driver
-    driver: bridge
-    driver_opts:
-      com.docker.network.driver.mtu: 1450
